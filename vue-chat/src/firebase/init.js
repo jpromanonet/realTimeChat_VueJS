@@ -1,3 +1,4 @@
+// Connecting to my Firebase App
 var firebaseConfig = {
   apiKey: "AIzaSyCj1kT8pckCt7kA-YCltkUvEZ9uT2edwhE",
   authDomain: "vuejschat-5c731.firebaseapp.com",
@@ -11,6 +12,10 @@ var firebaseConfig = {
 
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
+firebaseApp.firestore().settings({ timestampsInSnapshots: true });
+
+// Import the component to VueJS
+export default firebaseApp.firestore();
 
 // Chat Analytics
 const analyticsApp = firebase.analytics();
