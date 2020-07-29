@@ -11,4 +11,6 @@ var firebaseConfig = {
 
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+// Chat Analytics
 const analyticsApp = firebase.analytics();
