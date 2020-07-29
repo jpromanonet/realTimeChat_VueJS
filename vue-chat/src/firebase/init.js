@@ -1,5 +1,5 @@
 var firebaseConfig = {
-  apiKey: "",
+  apiKey: "AIzaSyCj1kT8pckCt7kA-YCltkUvEZ9uT2edwhE",
   authDomain: "vuejschat-5c731.firebaseapp.com",
   databaseURL: "https://vuejschat-5c731.firebaseio.com",
   projectId: "vuejschat-5c731",
