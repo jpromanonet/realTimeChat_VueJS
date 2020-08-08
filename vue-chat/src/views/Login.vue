@@ -9,6 +9,7 @@
             type="text"
             class="form-control"
             placeholder="Please, enter your name"
+            name="name"
           />
           <p v-if="errorText" class="text-danger">
             {{ errorText }}
@@ -28,5 +29,6 @@ export default {
       errorText: null,
     };
   },
+  methods,
 };
 </script>
