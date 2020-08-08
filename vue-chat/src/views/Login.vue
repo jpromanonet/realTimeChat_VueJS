@@ -4,6 +4,7 @@
       <div class="card-body">
         <h2 class="card-title text-center">Login</h2>
         <form @submit.prevent="login" class="text-center"></form>
+        <div class="form-group"></div>
       </div>
     </div>
   </div>
