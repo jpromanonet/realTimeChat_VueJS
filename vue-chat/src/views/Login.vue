@@ -32,7 +32,7 @@ export default {
   methods: {
     login() {
       if (this.name) {
-        this.$router.push({ name: "Chat" });
+        this.$router.push({ name: "Chat", params: {} });
       }
     },
   },
