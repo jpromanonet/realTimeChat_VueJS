@@ -29,6 +29,12 @@ export default {
       errorText: null,
     };
   },
-  methods,
+  methods: {
+    login() {
+      if (this.name) {
+        this.$router.push({ name: "Chat" });
+      }
+    },
+  },
 };
 </script>
