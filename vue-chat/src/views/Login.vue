@@ -32,9 +32,21 @@ export default {
   methods: {
     login() {
       if (this.name) {
-        this.$router.push({ name: "Chat", params: {} });
+        this.$router.push({ name: "Chat", params: { name: this.name } });
+      } else {
+        this.errorText = "Please, enter a name first";
       }
     },
   },
 };
 </script>
+
+<style>
+.login {
+  max-width: 450px;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
